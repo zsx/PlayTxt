@@ -58,6 +58,7 @@ def build(bld):
             opts = ['-keystore', '../developer.keystore',
                     '-storepass', 'password'],
             alias = a)
+        bld.add_group()
     # jar
     #
     # basedir: directory containing the .class files to package
