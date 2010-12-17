@@ -11,6 +11,7 @@ from waflib.TaskGen import feature
 from waflib import TaskGen, Task, Utils, Options, Build, Errors, Node
 
 class SignTask(Task.Task):
+    after = 'jar_create'
     run_str='${JARSIGNER} ${OPTS} ${TGT} ${ALIAS}'
 
 @feature('sign')
