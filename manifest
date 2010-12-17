@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Description: Speech for Kindle
+Main-Class: com.szeng.PlayTxt
+Implementation-Title: PlayTxt
+Implementation-Version: 0.0.1
+Implementation-Vendor: Shixin Zeng
