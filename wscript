@@ -30,7 +30,7 @@ def sign(self):
 
 def configure(conf):
     conf.check_tool('java')
-    conf.env.CLASSPATH_KINDLET = ['../../lib/kindlet-1.1.jar']
+    conf.env.CLASSPATH_KINDLET = ['../../lib/kindlet-1.2.jar', '../../lib/KindletImplementation-1.2.jar']
     conf.find_program('jarsigner', var='JARSIGNER')
     #conf.check_java_class('java.io.FileOutputStream')
     #conf.check_java_class('FakeClass')
